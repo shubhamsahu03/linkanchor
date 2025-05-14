@@ -49,7 +49,7 @@ export default async function UserPage({params}) {
       <div className="min-h-screen flex items-center justify-center text-white bg-red-900">
         <div>
           <h1 className="text-3xl font-bold mb-4">404 - Page Not Found</h1>
-          <p>The page you're looking for doesn't exist or the URI is invalid.</p>
+          <p>{"The page you're looking for doesn't exist or the URI is invalid."}</p>
         </div>
       </div>
     );
@@ -60,7 +60,7 @@ export default async function UserPage({params}) {
       <div className="min-h-screen flex items-center justify-center text-white bg-red-900">
         <div>
           <h1 className="text-3xl font-bold mb-4">User Not Found</h1>
-          <p>This page is linked to a user that no longer exists.</p>
+          <p>{"This page is linked to a user that no longer exists."}</p>
         </div>
       </div>
     );
